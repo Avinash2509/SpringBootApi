@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("quiApi")
 public class QuestionController {
-
+// im in comntroller
 	public Questions getQuestion() {
 		Questions question=new Questions();
 		question.setQuestionText("is uing spring boot");
